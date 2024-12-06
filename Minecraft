@@ -1,0 +1,14 @@
+minecraft_dict = {
+                            "BEDROCK": "Piedra base que o se puede destruir.",
+                            "REDSTONE": "Mineral que sirve para poner en funcionamiento diferentes mecanismo",
+                            "WARDEN": "Un mob que resguarda diferentes tipos de cofres con un LOOT formidable",
+                            "NETHERACK": "Piedra infernal que solo se encuentra en la dimension del NETHER"
+                            }
+
+minecraft = input("Escribe una palabra que no entiendas (¡con mayúsculas!): ")
+
+if minecraft in minecraft_dict.keys():
+    print(minecraft_dict[minecraft])
+
+else:
+    print("Este bloque o mob no se encuentra en nuestro sistema")
